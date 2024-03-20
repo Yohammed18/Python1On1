@@ -87,5 +87,85 @@ print(fruit_list.index('pineapples'))
 print(number_list[:4])
 # slice the new array and only print the every second element from index 0
 digits = [0,1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5]
+print(type(digits))
 print(digits[0::2])
+# print the last item
+print(digits[-1])
+
+# TUPLES
+# Tuples in Python are similar to lists, but with one key difference: they are immutable. This means that once a tuple is created, its elements cannot be changed, added, or removed. Tuples are typically used to store collections of items where immutability is desired or where the data should not be modified.
+month_of_year = ('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec')
+
+print(type(month_of_year))
+print(month_of_year)
+duplicate_tuples = (1,4,23,2,2,3,5,6,7,9,10,10,2,5,0,2)
+# Since they are immutable, tuples have 2 built-in function: count & index
+# print out the number of time 2 is this tuple
+print('The number of {}s in this tuple is {}'.format(2, duplicate_tuples.count(2)))
+# Print out the index for number 9
+print(f"Number 9 is located at index number {duplicate_tuples.index(9)}")
+
+# Dictionary
+# Dictionaries in Python are data structures that store key-value pairs. They are unordered, mutable, and can contain elements of different data types. Dictionaries are often used when you need to store data in a way that allows for fast lookup based on a unique key
+
+my_dict = {'name': 'John', 'age': 30, 'city': 'New York'}
+# print out the dictionary and the type to display
+print("{} and type {}".format(my_dict, type(my_dict)))
+# print len of the dictionary
+print('dic len: {}'.format(len(my_dict)))
+# create a new key sports and assign the value basketball
+my_dict['sport'] = 'basketball'
+print(my_dict)
+# print len of the dictionary
+print('dic len after addede key: {}'.format(len(my_dict)))
+# return all the keys in the dict
+print(f'Keys: {my_dict.keys()}')
+# return all the values
+print(f"Values: {my_dict.values()}")
+# get the value with the key age
+print(my_dict.get('age'))
+# update the city 
+my_dict.update({'city':'Chicago'})
+print(my_dict)
+#  pop the value with the key name
+my_dict.pop('name')
+print(my_dict)
+# delete the city key
+del my_dict['city']
+print(my_dict)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # There are planty of built in function that each of the data structure provides. To learn more visit https://docs.python.org/3/tutorial/datastructures.html
