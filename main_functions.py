@@ -80,16 +80,16 @@ Welcome to the guessing Game.
 
 guess = ''
 
-# while random_number != guess:
-#     guess = int(input("Guess the number:\n"))
+while random_number != guess:
+    guess = int(input("Guess the number:\n"))
     
-#     if guess == random_number:
-#         print("""\n{} was the correct number.
-# Thank you for playing and come back next time.
-#               """.format(guess))
-#         break
-#     else:
-#         print('{} is the wrong number. Try again\n'.format(guess))
+    if guess == random_number:
+        print("""\n{} was the correct number.
+Thank you for playing and come back next time.
+              """.format(guess))
+        break
+    else:
+        print('{} is the wrong number. Try again\n'.format(guess))
 # You can always use the randrage function to create a random int number.
 print(r.randrange(1,9))
 

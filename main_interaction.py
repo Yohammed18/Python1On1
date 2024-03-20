@@ -1,10 +1,10 @@
 # Making the porgram interactive via console
 # Python allows for user interaction through the input() function, which prompts the user to enter data via the console, typically used for simple text-based input. This input can then be stored in variables or used directly within the program for processing, making Python programs interactive and adaptable to user input.
-# userName = input('Hello User. What is Your name?\n')
-# program_language = input('What is your programming language of choice?\n')
-# year_len = int(input('How many years have you been programming?\n'))
+userName = input('Hello User. What is Your name?\n')
+program_language = input('What is your programming language of choice?\n')
+year_len = int(input('How many years have you been programming?\n'))
 
-# print("Welcome to the Python World {}.\n You have been programming for {} years and your programming language of choice is {}.".format(userName, year_len,program_language))
+print("Welcome to the Python World {}.\n You have been programming for {} years and your programming language of choice is {}.".format(userName, year_len,program_language))
 
 
 # Conditional Statement - in Python allow for decision-making within programs, executing different blocks of code based on certain conditions. 
