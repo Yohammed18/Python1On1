@@ -13,3 +13,5 @@ This repository provides the basic concepts and component that build the Python 
 - OOP (object oriented programming)
   -  class & objects
   -  inheritance
+
+Again this is a quick overview on the basic of python. For more information and proper documentation visit Python's home page ***https://docs.python.org/3/***
