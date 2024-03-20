@@ -81,8 +81,10 @@ print()
 try:
     answer = 12/0
     print('{} / {} = {}.'.format(12,0,answer))
-except:
-    print("An error occured")
+except ZeroDivisionError as e:
+    print("ERROR: {}.".format(e))
+    
+# other more specify errors are Value Error, Exception, IOError, ImportError, IndexError, KeyError, NameError, TypeError
     
     
     
