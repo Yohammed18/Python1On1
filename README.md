@@ -14,4 +14,4 @@ This repository provides the basic concepts and component that build the Python 
   -  class & objects
   -  inheritance
 
-Again this is a quick overview on the basic of python. For more information and proper documentation visit Python's home page ***https://docs.python.org/3/***
+Again this is a quick overview on the basic of python. For more in depth information and proper documentation on all things Python, visit Python's home page ***https://docs.python.org/3/tutorial/index.html***
